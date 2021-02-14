@@ -16,3 +16,11 @@ time ./bin/hello_asm
 echo
 echo "--- python3 ---"
 time python3 ./bin/hello.py
+echo "--C++--"
+time ./bin/hello_cpp
+echo "--Ruby--"
+time ruby ./bin/hello.rb
+echo "--Golang--"
+time go run ./bin/hello.go
+echo "--Java--"
+time java ./bin/hello.java
